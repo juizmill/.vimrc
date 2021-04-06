@@ -18,6 +18,7 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'mg979/vim-visual-multi', {'branch': 'master'}
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'dense-analysis/ale'
+Plugin 'honza/vim-snippets'
 
 call vundle#end()
 filetype plugin indent on
@@ -66,6 +67,9 @@ let g:NERDTreeGitStatusIndicatorMapCustom = {
     \ }
 let g:NERDTreeGitStatusShowIgnored = 1
 let g:webdevicons_enable_nerdtree = 1
+
+set tabstop=2 shiftwidth=2 expandtab
+
 
 nnoremap <c-s> :w<CR>
 inoremap <c-s> <Esc>:w<CR>l
